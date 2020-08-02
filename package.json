@@ -20,8 +20,9 @@
     "mocha": "^8.0.1"
   },
   "scripts": {
-    "vector-setup": "node vector-setup.js",
-    "test": "mocha test/*"
+    "vector-web-setup": "node vector-web-setup.js",
+    "test": "mocha test/*",
+    "start": "node run.js"
   },
   "author": "Digital Dream Labs",
   "license": "MIT"
