@@ -47,7 +47,7 @@ required.
 2. Run this command in your unix terminam : `sudo docker build -t <your-username>/vector-web-app .`
 3. Finally run this to deploy the container : `sudo docker run -p 49160:8081 -d <your-username>/vector-web-app:latest`
 
-I just moved the ./tools/run.js to ./run.js to simplify the path for executing.
+I just moved the ./tools/run.js to ./run.js to simplify the path for executing and also add `"start": "node run.js"` to package.json.
 And created a Dockerfile and .dockerignore for the docker builder.
 ## Admin usage
 
