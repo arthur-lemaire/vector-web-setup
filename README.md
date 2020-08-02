@@ -87,5 +87,5 @@ Any submitted pull request should pass the test suite run with `npm
 test` and will hopefully have additional tests as needed.
 
 And as always the project can be forked permanantly if you want to make
-significant changes without our permission!
+significant changes without our permission
 
